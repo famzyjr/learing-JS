@@ -1,3 +1,5 @@
+// let paragraph = document.getElementById("paragraph");
+// let networt = document.getElementById("networt");
 // // Variables are placeholders to store information and data in your app
 // name = 'ahmed'
 // console.log(name);
@@ -228,73 +230,180 @@
 //  const sumArrays=(numbers)=>{
 //   let result = 0;
 
-//   for(const number of numbers){
-//     console.log(Number(number) + 1);
-//    result = Number(result) + number;
+//   // for(const number of numbers){ // for loop method
+//   //   console.log(Number(number) + 1);
+//   //  result = Number(result) + number;
 
-//   }
+//   // }
+//     numbers.map((number)=>{ // map methop
+//     result = Number(result) + number
+//     })
 //   return {'result'  : result}
 //  }
-//  let num = [1,2,3,4,5]
+//  let num = [1,2,3,4,5,10,500]
 // //  let numbers = window.prompt('enter your numbers')
 //  console.log(sumArrays(num));
 
 // const sumArray = (numbers) => {
 //   let result = 0;
-//   for (const number of numbers) {
-//     console.log(number + 1);
-//     result += number;
-//   }
+//   // for (const number of numbers) { // for loop
+//   //   // console.log(number + 1)
+//   //   result += number;
+//   // }
+//    numbers.map((number)=>{
+//      result = Number(result) + number
+//    })
 //   return { result: result };
 // };
 
+// const num = [1, 2, 3,100];
 // console.log(sumArray(num));
-// const num = [1, 2, 3];
+
 // sum up all the numbers in array
 
 // const findMax = (numbers) => {
 //   let result = numbers[0];
 // // loop
-//   for (const number of numbers) {
-//     if (number > result) {
-//       result = number;
-//     }
-//   }
+//   // for (const number of numbers) {  // for loop
+//   //   if (number > result) {
+//   //     result = number;
+//   //   }
+//   // }
+//   // numbers.map((number)=>{ // map method
+//   //  if(number > result){
+//   //   result = number
+//   //  }
+//   // })
 //   return {result};
 // };
 
 // console.log(findMax([1,2,3,4,1,2,1,10,500]));
 
-const letterFrequency = (pharse) => {
-  console.log(pharse);
-  //  make a frequency object
-  let frequency = {};
-  //loop
-  for (const letter of pharse) {
-    console.log(letter);
-    //  check if letter exists in frequenct
-    if (letter in frequency) {
-      //  increment by 1
-      frequency[letter]++; //whatever frequency of letter was increment it by 1
-    } else {
-      //  otherwise set the value to one
-      frequency[letter] = 1;
+// const letterFrequency = (pharse) => {
+//   console.log(pharse);
+//   //  make a frequency object
+//   let frequency = {};
+//   //loop
+//   for (const letter of pharse) {
+//     console.log(letter);
+//     //  check if letter exists in frequenct
+//     if (letter in frequency) {
+//       //  increment by 1
+//       frequency[letter]++; //whatever frequency of letter was increment it by 1
+//     } else {
+//       //  otherwise set the value to one
+//       frequency[letter] = 1;
+//     }
+//   }
+//   return frequency;
+// };
+
+// console.log(letterFrequency(" lol what are you doing later tonight haha! "));
+
+// const wordFrequency = (pharse) => {
+//   // initializing the frequency  into an emptyobject
+
+//   //The split() method is a powerful and flexible tool in JavaScript for manipulating strings. It makes it easy to convert a delimited string into an array
+//    let array  = pharse.split(" ");
+//   return letterFrequency(array);
+// };
+// // const userInput = window.prompt('write your sentence')
+// // console.log(wordFrequency(userInput));
+
+// // incremntal operators
+// // +=,++,--
+
+// // Array Methods:Higher order functions: map, filter, reduce
+// //map this is used to loop to an array or object
+//  ;
+
+// const maps=(numbers)=>{
+//    return numbers.map(number => number  * 2);
+// }
+// console.log(maps([1,3,4,5,]));
+
+// Filter: it loops and return and array with matching conditions
+// const filter = (numbers , greatherthan) =>{
+//  let result = []
+//   for(const number of numbers){
+//     if(number > greatherthan){
+//        result.push(number)
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(filter([1,2,3,4,5,6], 3));
+
+// const nums = [1,2,3,4,5,6];
+//  console.log(nums.filter(num => num >= 4)); // || OR, && AND JOIN method
+
+// join: oin() is an array function from Node.js that is used to return a string from the array.;
+//  OR In JavaScript, the logical OR operator is represented by ||. It is used to combine multiple boolean expressions and returns true if at least one of the expressions evaluates to true. If all expressions evaluate to false, it returns false.';
+// AND:The AND operator (&&) in JavaScript is a logical operator that combines two or more boolean expressions. It returns true only if all the conditions are true. If any condition is false, the result will be false.;
+const actors = [
+  { name: "wizkid", networt: 30000000 },
+  { name: "David", networt: 10 },
+  { name: "burna", networt: 400 },
+  { name: "Gemi", networt: 60000000 },
+  { name: "famzy", networt: 9000000 },
+  { name: "famzy Jnr", networt: 10000000 },
+];
+
+
+
+
+// let result = actors.filter((actor) => actor.networt > 10);
+// paragraph.innerHTML = `<h5>Artist: ${JSON.stringify(result)}</h5>`;
+// networt.innerHTML = `<h5>NetWort: ${result[0].networt}</h5>`;
+// let names = actors
+//   .map((actor) => {
+//     console.log(actor.name);
+//     console.log(actor.networt);
+//     paragraph.innerHTML = `<p>${actor.name}</p>`;
+//   })
+//   .join(", ");
+
+// Reduce: The reduce() method in JavaScript is used to execute a reducer function on each element of an array, effectively reducing the array to a single accumulated value. It processes the elements in ascending index order and returns this final result.
+// reduce takes in function as an argumrnt
+
+// function sum(a,b){
+//   return  a + b;
+// }
+
+
+// const  nums = [1,2,3,10,100];
+// const result = nums.reduce((a, b) => a +  b)
+// console.log(sum());
+
+// console.log(result);
+
+// const mult = (x,y)=>{
+//  return x * y;
+// }
+
+// const num = nums;
+//  const output = nums.reduce( (x , y) => x * y )
+// console.log(mult());
+// console.log(output);
+
+// console.log(actors.reduce((prev,current)=> prev + current.networt, 0));
+
+const max=(array)=>{
+  let max = 0;
+  for (let i = 0; i < array.length; i++) {    
+    if(array[i] >  max){
+      max = array[i]
     }
-  }
-  return frequency;
-};
+}  
+ return max
+}
 
-console.log(letterFrequency(" lol what are you doing later tonight haha! "));
+console.log(max([1,3,5,10,100,500]));
 
-const wordFrequency = (pharse) => {
-  // initializing the frequency  into an emptyobject
+const max2=(arrays)=>{
+ arrays.sort((a, b) => a - b)
+ return arrays[arrays.length - 1];
+}
+console.log(max2([1.1,100,8,17345]));
 
-  //The split() method is a powerful and flexible tool in JavaScript for manipulating strings. It makes it easy to convert a delimited string into an array
-   let array  = pharse.split(" ");
-  return letterFrequency(array);
-};
-// const userInput = window.prompt('write your sentence')
-// console.log(wordFrequency(userInput));
-
-// incremntal operators
-// +=,++,--

@@ -131,13 +131,13 @@
 // }
 // console.log(randoms(['famzy-Jnr','Ahmed', 'Famzy','Ayuba', "Gemi", ]));
 
-// // result 
+// // result
 // const waec =()=>{
 
 // }
 
 // const weathe=(weather)=>{
-  
+
 //  if(weather == 'rain'){
 //   console.log('raining');
 //  }else{
@@ -148,47 +148,43 @@
 // }
 // console.log(weathe('rain'));
 
-
 // const max=(pharse)=>{
 //   let result = pharse[0];
 //   for(const phrases of pharse){
-    
+
 //     if(result < phrases){
 //       result = phrases
 //     }
-    
+
 //   }
 //   return {result};
 // }
 
 // console.log(max([1,2,3,4, 100]));
 
-
 // const letter =(letters)=>{
 //     for(const letter of letters){
 //      console.log(letter);
-     
+
 //     }
 // }
 
 // console.log(letter('haha'));
 
-// Write a function that takes a parameter (hours) and converts
-// it to seconds
-// 60seconds make an 1min
-// 60min makes an hour
-// 24h makes a day
-
+//getting user input with prompt
+const num = window.prompt('Sum')  
+ //using split method to convert it to and array and string
+const newArray  = num.split(',').map(Number);
+//using sum method to sum up 
+ const addResul = newArray.reduce((a, b) => a  + b, 0); 
+ console.log("Sum:",addResul);
  
+// Prompt the user for a comma-separated list of numbers  
+const nums = window.prompt('Enter numbers separated by commas:');  
 
-function howManySeconds(hours,mins) {
-    // Your function should return an integer
-    // of how many seconds are in the hour
-    let seconds = hours * 60 * 60;
-    let min =   mins * 60;
-    return {seconds,min}
-  }
-  console.log(howManySeconds(24,50));
-  
-  //Topics: Variables,functions, Math
-  
+// Convert the input string into an array of numbers  
+const numArray = nums.split(',').map(Number); // Split and convert to numbers  
+
+// Sum the numbers  
+const addResult = numArray.reduce((a, b) => a + b, 0); // Provide an initial value of 0  
+console.log('Sum:', addResult);  
