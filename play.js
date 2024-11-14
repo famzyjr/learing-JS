@@ -55,9 +55,8 @@
 //  console.log(mul(20,10));
 
 // const pra = (name,age,time,profession) =>{
-//  const outPut = `my ${name} is i am ${age} i got here by ${time} my profession ${profession}`;
+//  const outPut = `my Name is ${name}  i am ${age} i got here by ${time} my profession ${profession}`;
 //  console.log(outPut);
-
 // }
 
 // console.log(pra('Ahmed',  20, '12:45', 'frontend developer'));
@@ -83,7 +82,7 @@
 // C5: 2
 // C6: 1
 
-//waec claculator
+// waec claculator
 
 // objects
 // const Student = {
@@ -171,20 +170,23 @@
 
 // console.log(letter('haha'));
 
-//getting user input with prompt
-const num = window.prompt('Sum')  
- //using split method to convert it to and array and string
-const newArray  = num.split(',').map(Number);
-//using sum method to sum up 
- const addResul = newArray.reduce((a, b) => a  + b, 0); 
- console.log("Sum:",addResul);
+// //getting user input with prompt
+// const num = window.prompt('Sum')  
+//  //using split method to convert it to and array and string
+// const newArray  = num.split(',').map(Number);
+// //using sum method to sum up 
+//  const addResul = Number(newArray.reduce((a, b) => a  + b, 0)); 
+//  console.log("Sum:",addResul);
+//   window.alert(addResul)
  
-// Prompt the user for a comma-separated list of numbers  
-const nums = window.prompt('Enter numbers separated by commas:');  
+// // Prompt the user for a comma-separated list of numbers  
+// const nums = window.prompt('Enter numbers separated by commas:');  
 
-// Convert the input string into an array of numbers  
-const numArray = nums.split(',').map(Number); // Split and convert to numbers  
+// // Convert the input string into an array of numbers  
+// const numArray = nums.split(',').map(Number); // Split and convert to numbers  
 
-// Sum the numbers  
-const addResult = numArray.reduce((a, b) => a + b, 0); // Provide an initial value of 0  
-console.log('Sum:', addResult);  
+// // Sum the numbers  
+// const addResult = numArray.reduce((a, b) => a + b, 0); // Provide an initial value of 0  
+// console.log('Sum:', addResult);  
+
+

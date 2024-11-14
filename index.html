@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>JS</title>
-</head>
-<body>
-<h1>Hello</h1>
-<p id="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi cum iusto commodi minus repellendus suscipit aperiam beatae similique, quia, est nesciunt nulla omnis fugiat nemo voluptatem dolorem aliquam nihil voluptatum.</p>
-<p id="networt"></p>
-<script src="./app.js"></script>
-<script src="./play.js"></script>
-</body>
+  </head>
+  <body style="margin: 0; padding: 0; box-sizing: border-box;">
+    <div id="title" style="background-color: blue;">
+      <h2 >Hello world</h2>
+    </div> 
+    <span id="changes-span"></span>
+    <button id="change">Change</button>
+
+     <div  style="display: flex ; justify-content: center; ">
+      <button class="colorButton" id="red" style="width: 150px; height: 150px; background-color: red; text-align: center;" value="red" >0</button>
+     <button class="colorButton" id="yellow" style="width: 150px; height: 150px; background-color: yellow; text-align: center;"  value="yellow" >0</button>
+     <button class="colorButton" id="green" style="width: 150px; height: 150px; background-color: green; text-align: center;"  value="green" >0</button>
+     </div>
+      <button id="cleargame">Clear</button>
+
+    <script src="./app.js"></script>
+    <script src="./play.js"></script>
+    <script src="./exercise.js"></script>
+    <script src="./dom.js"></script>
+  </body>
 </html>
