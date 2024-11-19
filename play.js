@@ -190,3 +190,34 @@
 // console.log('Sum:', addResult);  
 
 
+//How to select an item out of an array
+const randomFruit=(fruits)=>{
+ const randomNumber = Math.floor(Math.random(fruits) * fruits.length)
+ console.log(randomNumber);
+ 
+ return fruits[randomNumber]
+} 
+ fruits = [ "bananna",
+    "Apple",
+    "orange",
+    "pea",   ]
+console.log(randomFruit(fruits));
+//  let maxLength  = 4;
+// console.log(Math.floor(Math.random() * maxLength));
+//if if else you can use an else statement inside of an if else statement. This is known as a nested if else statement
+// rainy(1), sunny(-1), overcast(0)
+
+const weathers=(weather,weather2)=>{
+  if(weather === 'rainy' && weather2 === 'sunny'){
+    return {'rainy': 2};
+  } else if(weather === 'sunny'){
+    return {'sunny': -1};
+  }
+  else if (weather === 'overCast'){
+    return {" overCast" : 0};
+  }
+  else{
+    return null;
+  }
+}
+console.log(weathers('rainy','sunny'));

@@ -5,7 +5,7 @@
 // onclick: this is used to detect an event when a user clicks
 // querySelector: method returns the first element within the document that matches a specified CSS selector.
 let title = document.getElementById("title");
-console.log("before", title.innerText);
+// console.log("before", title.innerText);
 let red = document.getElementById("red");
 
 let yellow = document.getElementById("yellow");
@@ -14,11 +14,32 @@ let green = document.getElementById("green");
 
 let message = "How are you doing";
 
-console.log("after:", title.innerText);
+// console.log("after:", title.innerText);
 const colour = [
   '#2C3E50',
   '#2a74be',
-  '#fff', '#ad1818','green']
+  '#fff', '#ad1818','green',
+  "#DC143C",  
+    "#0000CD",  
+    "#32CD32",  
+    "#DAA520",  
+    "#708090",  
+    "#00BFFF",  
+    "#FF6347",  
+    "#DA70D6",  
+    "#FF7F50",  
+    "#556B2F",  
+    "#4682B4",  
+    "#C71585",  
+    "#D2691E",  
+    "#C0C0C0",  
+    "#FF69B4",  
+    "#8B4513",  
+    "#40E0D0",  
+    "#DDA0DD",  
+    "#4B0082",  
+    "#FFFACD"  
+]
 
 const colors =()=>{
 const random = Math.floor(colour.length * Math.random())
@@ -42,7 +63,7 @@ title.onclick = () =>{(
 
 
 const squares = document.querySelectorAll(".colorButton");
-console.log(squares);
+// console.log(squares);
 // forEach
 const timeClicked = { 'red': 0, 'yellow': 0, 'green': 0 };
 squares.forEach((squares) => {
@@ -54,14 +75,14 @@ squares.forEach((squares) => {
 });
 
 
-squares.forEach((square) => {  
-  square.onclick = () => {  
-    // Increment the count for the clicked button's color  
-    timeClicked[square.value] += 1;  
-    // Update the button's text to show the current count  
-    square.innerText = timeClicked[square.value];  
-  };  
-});  
+// squares.forEach((square) => {  
+//   square.onclick = () => {  
+//     // Increment the count for the clicked button's color  
+//     timeClicked[square.value] += 1;  
+//     // Update the button's text to show the current count  
+//     square.innerText = timeClicked[square.value];  
+//   };  
+// });  
 
 // Function to reset the counters and button texts  
 const clearNumbers = () => {  

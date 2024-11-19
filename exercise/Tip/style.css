@@ -1,11 +1,15 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: #8990ec;
+}
+
 * {
     font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
     color: white;
   }
   
-  body {
-    background: #8990ec;
-  }
   
   .wrapper {
     height: 525px;

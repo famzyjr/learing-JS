@@ -9,17 +9,17 @@
 // let  greet = 'Hello';
 // const greet = 'Hello';
 
-// //  lesson One
-// // Prompt is a built in javascript functionality that helps get user through the browser
+//  lesson One
+// Prompt is a built in javascript functionality that helps get user through the browser
 
-// // operators: operators are used to assign values, compare values,perform arithmetic operators. Basically, stuff you see in math (+,-,*,/etc)
+// operators: operators are used to assign values, compare values,perform arithmetic operators. Basically, stuff you see in math (+,-,*,/etc)
 
-// // Number('100') converts the string 100 to number 100
+// Number('100') converts the string 100 to number 100
 
-// // fruit = window.prompt(
-// // 'what is your favourite fruit'
-// // )
-// // console.log(fruit);
+// fruit = window.prompt(
+// 'what is your favourite fruit'
+// )
+// console.log(fruit);
 
 //  food = Number(window.prompt(
 //     'what your total'
@@ -30,8 +30,8 @@
 // // alert is like prompt() but it is only for output
 // console.log('tipAmount',tipAmount);
 // console.log('total',total);
-// // window.alert(total)
-// // window.alert(tipAmount)
+// window.alert(total)
+// window.alert(tipAmount)
 
 // Data Types:Numbers,strings,arrays,objects,boolean: true / true,
 
@@ -81,266 +81,266 @@
 //   }
 //   sayMyName2('famzy');
 
-// // function greeting(name){
-// // // concatentation: appending two or more strings together
-// // //  greet =   'hi ' + name  + ', nice to meet you';
-// // //Template literals provide an easy way to interpolate var and expressions into strings interpolating is an efficient way of concatenation.
-// // greet =  `hi ${name}, nice to meet you`
-// //  console.log(greet);
-// // }
-// // greeting('Ahmed')
-// // the retyrn statement stops the execution of a function and returns a value
-// // function sum(a, b) {
-// //   return a + b;
-// // }
-// // num1 = sum(1, 2);
-// // console.log(num1);
-// // function CalculateFoodTotal(food, tip) {
-// //  const toltalPercentage = tip / 100;
-// //  const tipAmount = food * toltalPercentage;
-// //   const total = sum(food, tipAmount);
-// //   return total;
-// // }
-// // console.log(CalculateFoodTotal(100, 20));
+// function greeting(name){
+// // concatentation: appending two or more strings together
+// //  greet =   'hi ' + name  + ', nice to meet you';
+// //Template literals provide an easy way to interpolate var and expressions into strings interpolating is an efficient way of concatenation.
+// greet =  `hi ${name}, nice to meet you`
+//  console.log(greet);
+// }
+// greeting('Ahmed')
+// the retyrn statement stops the execution of a function and returns a value
+// function sum(a, b) {
+//   return a + b;
+// }
+// num1 = sum(1, 2);
+// console.log(num1);
+// function CalculateFoodTotal(food, tip) {
+//  const toltalPercentage = tip / 100;
+//  const tipAmount = food * toltalPercentage;
+//   const total = sum(food, tipAmount);
+//   return total;
+// }
+// console.log(CalculateFoodTotal(100, 20));
 
-// // ES6
-// // Arrow Function =>
-// //  arrow function wit explicit return
-// // const sumArrow = (a,b) =>{
-// //     return a + b
-// // }
-// // arrow function with implicty return: you don't have to use the return keyword if the value is directly after the arrow =>
-// // const  sumArrow2 = (a,b) => a + b
-// // console.log(sumArrow2(100, 10));
+// ES6
+// Arrow Function =>
+//  arrow function wit explicit return
+// const sumArrow = (a,b) =>{
+//     return a + b
+// }
+// arrow function with implicty return: you don't have to use the return keyword if the value is directly after the arrow =>
+// const  sumArrow2 = (a,b) => a + b
+// console.log(sumArrow2(100, 10));
 
-// // Arrays: arrays allow you to store multiple values inside of them
-// // the index gives you the location of a value within an array. it is similar to a street number
+// Arrays: arrays allow you to store multiple values inside of them
+// the index gives you the location of a value within an array. it is similar to a street number
 
-// // const groceries = ["bananna", "Apple", "orange", "pea"];
-// // console.log(groceries);
-// // console.log(groceries[3]);
+// const groceries = ["bananna", "Apple", "orange", "pea"];
+// console.log(groceries);
+// console.log(groceries[3]);
 
-// // Array methods:push adds one or more elements to the end of an array and returns the new length of the array.
-// // slice the slice method returns the portion of the array you want in a new array;
-// // indexOf
-// // length: length is an array property that returns the number of elements you have in a given array
+// Array methods:push adds one or more elements to the end of an array and returns the new length of the array.
+// slice the slice method returns the portion of the array you want in a new array;
+// indexOf
+// length: length is an array property that returns the number of elements you have in a given array
 
-// // groceries.push('cookies')
-// // console.log(groceries);
+// groceries.push('cookies')
+// console.log(groceries);
 
-// // groceries.push('Berries')
-// // console.log(groceries);
+// groceries.push('Berries')
+// console.log(groceries);
 
-// // // array slice
-// // console.log(groceries.slice(0,6));
-// // console.log(groceries.slice(1,4));
+// // array slice
+// console.log(groceries.slice(0,6));
+// console.log(groceries.slice(1,4));
 
-// // array length
-// // console.log(groceries.length);
+// array length
+// console.log(groceries.length);
 
-// // Objects: are type of var quite similar to Arrays but theu have something called key-value pairs
-// //methods: a method is a property containing a function definition
+// Objects: are type of var quite similar to Arrays but theu have something called key-value pairs
+//methods: a method is a property containing a function definition
 
-// // const person = { name: "Leonardo", shirt: "white" };
-// // // dot notation
-// // console.log(person.name);
-// // console.log(person.shirt);
+// const person = { name: "Leonardo", shirt: "white" };
+// // dot notation
+// console.log(person.name);
+// console.log(person.shirt);
 
-// // // bracket notation
-// // console.log(person["shirt"]);
-// // console.log(person["name"]);
+// // bracket notation
+// console.log(person["shirt"]);
+// console.log(person["name"]);
 
-// // // assign objects
-// // person["phone"] = "0333333333333";
-// // console.log(person.phone);
+// // assign objects
+// person["phone"] = "0333333333333";
+// console.log(person.phone);
 
-// // // person2
-// // const personTwo = { name: "Qazi", shirt: "black" };
-// // console.log(personTwo);
-// // console.log(personTwo.name);
-// // console.log(personTwo.shirt);
+// // person2
+// const personTwo = { name: "Qazi", shirt: "black" };
+// console.log(personTwo);
+// console.log(personTwo.name);
+// console.log(personTwo.shirt);
 
-// // const intro = (name, shirt) => {
-// //   const person = {
-// //     name: name,
-// //     shirt: shirt,
-// //     assets: 100000,
-// //     liability: 50000,
-// //     netWorth: function(){
-// //         return this.assets - this.liability;
-// //     },
-// //   };
+// const intro = (name, shirt) => {
+//   const person = {
+//     name: name,
+//     shirt: shirt,
+//     assets: 100000,
+//     liability: 50000,
+//     netWorth: function(){
+//         return this.assets - this.liability;
+//     },
+//   };
 
-// //   const introduce = `hey my name is ${person.name} and i'm putting on a ${
-// //     person.shirt
-// //   } shirt and my net worth is ${person.netWorth()}`;
-// //   return introduce;
-// // };
+//   const introduce = `hey my name is ${person.name} and i'm putting on a ${
+//     person.shirt
+//   } shirt and my net worth is ${person.netWorth()}`;
+//   return introduce;
+// };
 
-// // console.log(intro("famzy", "black"));
-// // console.log(intro('Leonardo', 'white'));
+// console.log(intro("famzy", "black"));
+// console.log(intro('Leonardo', 'white'));
 
-// //For Loops
-// // const fruits = [
-// //   "bananna",
-// //   "Apple",
-// //   "orange",
-// //   "pea",
-// // ];
+//For Loops
+// const fruits = [
+//   "bananna",
+//   "Apple",
+//   "orange",
+//   "pea",
+// ];
 
-// //old way of writing for loop
-// // for(let i = 0; i < fruit.length;  i++){
-// //     console.log(i, fruit[i]);
-// // }
+//old way of writing for loop
+// for(let i = 0; i < fruit.length;  i++){
+//     console.log(i, fruit[i]);
+// }
 
-// // new  way of writing for loop
-// // for (const fruit of fruits) {
-// //   console.log(fruit);
-// // }
+// new  way of writing for loop
+// for (const fruit of fruits) {
+//   console.log(fruit);
+// }
 
-// // const double = (numbers) =>{
-// //     let result = []
-// //     for(const number of numbers ){
-// //        result.push(number ** 2)
-// //     }
-// //      return result
-// // }
-// // console.log(double([1,2,3,4,5,6]));
+// const double = (numbers) =>{
+//     let result = []
+//     for(const number of numbers ){
+//        result.push(number ** 2)
+//     }
+//      return result
+// }
+// console.log(double([1,2,3,4,5,6]));
 
-// // Exercises array nd objects: length
+// Exercises array nd objects: length
 
-// // const howManyLetters  =(phrase)=>{
-// // let result = 0;
-// // // for of and for in
-// // for(const index in phrase){
-// //    console.log(Number(index) + 1);
-// //    result = Number(index) + 1
-// // }
-// // return {'result': result}
-// // }
-// // const phrase = window.prompt('write a pharse');
-// // console.log(howManyLetters(phrase));
+// const howManyLetters  =(phrase)=>{
+// let result = 0;
+// // for of and for in
+// for(const index in phrase){
+//    console.log(Number(index) + 1);
+//    result = Number(index) + 1
+// }
+// return {'result': result}
+// }
+// const phrase = window.prompt('write a pharse');
+// console.log(howManyLetters(phrase));
 
-// //sum up all
-// // [1,2,3,4]
-// // result = 1;
-// // result = 2;
-// // result  = 3;
-// // result  = 4;
-// //  const sumArrays=(numbers)=>{
-// //   let result = 0;
+//sum up all
+// [1,2,3,4]
+// result = 1;
+// result = 2;
+// result  = 3;
+// result  = 4;
+//  const sumArrays=(numbers)=>{
+//   let result = 0;
 
-// //   // for(const number of numbers){ // for loop method
-// //   //   console.log(Number(number) + 1);
-// //   //  result = Number(result) + number;
+//   // for(const number of numbers){ // for loop method
+//   //   console.log(Number(number) + 1);
+//   //  result = Number(result) + number;
 
-// //   // }
-// //     numbers.map((number)=>{ // map methop
-// //     result = Number(result) + number
-// //     })
-// //   return {'result'  : result}
-// //  }
-// //  let num = [1,2,3,4,5,10,500]
-// // //  let numbers = window.prompt('enter your numbers')
-// //  console.log(sumArrays(num));
+//   // }
+//     numbers.map((number)=>{ // map methop
+//     result = Number(result) + number
+//     })
+//   return {'result'  : result}
+//  }
+//  let num = [1,2,3,4,5,10,500]
+// //  let numbers = window.prompt('enter your numbers')
+//  console.log(sumArrays(num));
 
-// // const sumArray = (numbers) => {
-// //   let result = 0;
-// //   // for (const number of numbers) { // for loop
-// //   //   // console.log(number + 1)
-// //   //   result += number;
-// //   // }
-// //    numbers.map((number)=>{
-// //      result = Number(result) + number
-// //    })
-// //   return { result: result };
-// // };
+// const sumArray = (numbers) => {
+//   let result = 0;
+//   // for (const number of numbers) { // for loop
+//   //   // console.log(number + 1)
+//   //   result += number;
+//   // }
+//    numbers.map((number)=>{
+//      result = Number(result) + number
+//    })
+//   return { result: result };
+// };
 
-// // const num = [1, 2, 3,100];
-// // console.log(sumArray(num));
+// const num = [1, 2, 3,100];
+// console.log(sumArray(num));
 
-// // sum up all the numbers in array
+// sum up all the numbers in array
 
-// // const findMax = (numbers) => {
-// //   let result = numbers[0];
-// // // loop
-// //   // for (const number of numbers) {  // for loop
-// //   //   if (number > result) {
-// //   //     result = number;
-// //   //   }
-// //   // }
-// //   // numbers.map((number)=>{ // map method
-// //   //  if(number > result){
-// //   //   result = number
-// //   //  }
-// //   // })
-// //   return {result};
-// // };
+// const findMax = (numbers) => {
+//   let result = numbers[0];
+// // loop
+//   // for (const number of numbers) {  // for loop
+//   //   if (number > result) {
+//   //     result = number;
+//   //   }
+//   // }
+//   // numbers.map((number)=>{ // map method
+//   //  if(number > result){
+//   //   result = number
+//   //  }
+//   // })
+//   return {result};
+// };
 
-// // console.log(findMax([1,2,3,4,1,2,1,10,500]));
+// console.log(findMax([1,2,3,4,1,2,1,10,500]));
 
-// // const letterFrequency = (pharse) => {
-// //   console.log(pharse);
-// //   //  make a frequency object
-// //   let frequency = {};
-// //   //loop
-// //   for (const letter of pharse) {
-// //     console.log(letter);
-// //     //  check if letter exists in frequenct
-// //     if (letter in frequency) {
-// //       //  increment by 1
-// //       frequency[letter]++; //whatever frequency of letter was increment it by 1
-// //     } else {
-// //       //  otherwise set the value to one
-// //       frequency[letter] = 1;
-// //     }
-// //   }
-// //   return frequency;
-// // };
+// const letterFrequency = (pharse) => {
+//   console.log(pharse);
+//   //  make a frequency object
+//   let frequency = {};
+//   //loop
+//   for (const letter of pharse) {
+//     console.log(letter);
+//     //  check if letter exists in frequenct
+//     if (letter in frequency) {
+//       //  increment by 1
+//       frequency[letter]++; //whatever frequency of letter was increment it by 1
+//     } else {
+//       //  otherwise set the value to one
+//       frequency[letter] = 1;
+//     }
+//   }
+//   return frequency;
+// };
 
-// // console.log(letterFrequency(" lol what are you doing later tonight haha! "));
+// console.log(letterFrequency(" lol what are you doing later tonight haha! "));
 
-// // const wordFrequency = (pharse) => {
-// //   // initializing the frequency  into an emptyobject
+// const wordFrequency = (pharse) => {
+//   // initializing the frequency  into an emptyobject
 
-// //   //The split() method is a powerful and flexible tool in JavaScript for manipulating strings. It makes it easy to convert a delimited string into an array
-// //    let array  = pharse.split(" ");
-// //   return letterFrequency(array);
-// // };
-// // // const userInput = window.prompt('write your sentence')
-// // // console.log(wordFrequency(userInput));
+//   //The split() method is a powerful and flexible tool in JavaScript for manipulating strings. It makes it easy to convert a delimited string into an array
+//    let array  = pharse.split(" ");
+//   return letterFrequency(array);
+// };
+// // const userInput = window.prompt('write your sentence')
+// // console.log(wordFrequency(userInput));
 
-// // // incremntal operators
-// // // +=,++,--
+// // incremntal operators
+// // +=,++,--
 
-// // // Array Methods:Higher order functions: map, filter, reduce
-// // //map this is used to loop to an array or object
-// //  ;
+// // Array Methods:Higher order functions: map, filter, reduce
+// //map this is used to loop to an array or object
+//  ;
 
-// // const maps=(numbers)=>{
-// //    return numbers.map(number => number  * 2);
-// // }
-// // console.log(maps([1,3,4,5,]));
+// const maps=(numbers)=>{
+//    return numbers.map(number => number  * 2);
+// }
+// console.log(maps([1,3,4,5,]));
 
-// // Filter: it loops and return and array with matching conditions
-// // const filter = (numbers , greatherthan) =>{
-// //  let result = []
-// //   for(const number of numbers){
-// //     if(number > greatherthan){
-// //        result.push(number)
-// //     }
-// //   }
-// //   return result;
-// // }
+// Filter: it loops and return and array with matching conditions
+// const filter = (numbers , greatherthan) =>{
+//  let result = []
+//   for(const number of numbers){
+//     if(number > greatherthan){
+//        result.push(number)
+//     }
+//   }
+//   return result;
+// }
 
-// // console.log(filter([1,2,3,4,5,6], 3));
+// console.log(filter([1,2,3,4,5,6], 3));
 
-// // const nums = [1,2,3,4,5,6];
-// //  console.log(nums.filter(num => num >= 4)); // || OR, && AND JOIN method
+// const nums = [1,2,3,4,5,6];
+//  console.log(nums.filter(num => num >= 4)); // || OR, && AND JOIN method
 
-// // join: join() is an array function from Node.js that is used to return a string from the array.;
-// //  OR In JavaScript, the logical OR operator is represented by ||. It is used to combine multiple boolean expressions and returns true if at least one of the expressions evaluates to true. If all expressions evaluate to false, it returns false.';
-// // AND:The AND operator (&&) in JavaScript is a logical operator that combines two or more boolean expressions. It returns true only if all the conditions are true. If any condition is false, the result will be false.;
+// join: join() is an array function from Node.js that is used to return a string from the array.;
+//  OR In JavaScript, the logical OR operator is represented by ||. It is used to combine multiple boolean expressions and returns true if at least one of the expressions evaluates to true. If all expressions evaluate to false, it returns false.';
+// AND:The AND operator (&&) in JavaScript is a logical operator that combines two or more boolean expressions. It returns true only if all the conditions are true. If any condition is false, the result will be false.;
 // const actors = [
 //   { name: "wizkid", networt: 30000000 },
 //   { name: "David", networt: 10 },
@@ -350,38 +350,40 @@
 //   { name: "famzy Jnr", networt: 10000000 },
 // ];
 
-// // let result = actors.filter((actor) => actor.networt > 10);
-// // paragraph.innerHTML = `<h5>Artist: ${JSON.stringify(result)}</h5>`;
-// // networt.innerHTML = `<h5>NetWort: ${result[0].networt}</h5>`;
-// // let names = actors
-// //   .map((actor) => {
-// //     console.log(actor.name);
-// //     console.log(actor.networt);
-// //     paragraph.innerHTML = `<p>${actor.name}</p>`;
-// //   })
-// //   .join(", ");
+// let result = actors.filter((actor) => actor.networt > 10);
+// paragraph.innerHTML = `<h5>Artist: ${JSON.stringify(result)}</h5>`;
+// networt.innerHTML = `<h5>NetWort: ${result[0].networt}</h5>`;
+// let names = actors
+//   .map((actor) => {
+//     console.log(actor.name);
+//     console.log(actor.networt);
+//     paragraph.innerHTML = `<p>${actor.name}</p>`;
+//   })
+//   .join(", ");
 
-// // Reduce: The reduce() method in JavaScript is used to execute a reducer function on each element of an array, effectively reducing the array to a single accumulated value. It processes the elements in ascending index order and returns this final result.
-// // reduce takes in function as an argumrnt
+// Reduce: The reduce() method in JavaScript is used to execute a reducer function on each element of an array, effectively reducing the array to a single accumulated value. It processes the elements in ascending index order and returns this final result.
+// reduce takes in function as an argumrnt
 
-// // function sum(a,b){
-// //   return  a + b;
-// // }
+// function sum(a,b){
+//   return  a + b;
+// }
 
-// // const  nums = [1,2,3,10,100];
-// // const result = nums.reduce((a, b) => a +  b)
-// // console.log(sum());
+// const  nums = [1,2,3,10,100];
+// const result = nums.reduce((a, b) => a +  b)
+// console.log(sum());
 
-// // console.log(result);
+// console.log(result);
 
-// // const mult = (x,y)=>{
-// //  return x * y;
-// // }
+// const mult = (x,y)=>{
+//  return x * y;
+// }
 
-// // const num = nums;
-// //  const output = nums.reduce( (x , y) => x * y )
-// // console.log(mult());
-// // console.log(output);
+// const num = nums;
+//  const output = nums.reduce( (x , y) => x * y )
+// console.log(mult());
+// console.log(output);
+
+// console.log(actors.reduce((prev,current)=> prev + current.networt, 0));
 
 // // console.log(actors.reduce((prev,current)=> prev + current.networt, 0));
 
